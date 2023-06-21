@@ -7,10 +7,15 @@ This project involves building a spam classification model using the Naive Bayes
 To run the code, you need to have the following dependencies installed:
 
 numpy
+
 pandas
+
 seaborn
+
 matplotlib
+
 scikit-learn
+
 nltk
 
 ## Results
