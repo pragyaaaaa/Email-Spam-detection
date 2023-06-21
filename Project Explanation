@@ -1,5 +1,5 @@
 
-## This repository contains a Python script for classifying spam messages using Naive Bayes algorithm. The script performs the following steps:
+# This repository contains a Python script for classifying spam messages using Naive Bayes algorithm. The script performs the following steps:
 
 Step 1. Import necessary libraries: numpy, pandas, seaborn, matplotlib.pyplot, sklearn, nltk.
 
