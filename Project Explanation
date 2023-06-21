@@ -1,1 +1,32 @@
 
+## This repository contains a Python script for classifying spam messages using Naive Bayes algorithm. The script performs the following steps:
+
+Step 1. Import necessary libraries: numpy, pandas, seaborn, matplotlib.pyplot, sklearn, nltk.
+
+Step 2. Read the dataset from a CSV file (spam1.csv) using pandas.
+
+Step 3. Clean the dataset by removing null values and unnecessary columns.
+
+Step 4. Rename columns for better clarity.
+
+Step 5. Encode the target variable using LabelEncoder.
+
+Step 6. Perform data exploration by analyzing class distribution and visualizing it using a pie chart.
+
+Step 7. Preprocess the text data by tokenizing, removing stopwords and punctuation, and applying stemming.
+
+Step 8. Compute additional features like number of characters, number of words, and number of sentences in each message.
+
+Step 9. Generate descriptive statistics for the features.
+
+Step 10. Split the dataset into training and testing sets.
+
+Step 11. Apply TF-IDF vectorization on the transformed text data using TfidfVectorizer.
+
+Step 12. Train a Multinomial Naive Bayes classifier on the training data.
+
+Step 13. Predict the target variable for the testing data.
+
+Step 14. Evaluate the performance of the classifier using accuracy and precision scores.
+
+Step 15. Save the trained model and TF-IDF vectorizer for future use.
